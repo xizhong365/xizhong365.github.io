@@ -2,7 +2,7 @@ title: Erxwu's Kindergarten
 description: 
 google_analytics: 
 show_downloads: no
-theme: jekyll-theme-tactile
+theme: jekyll-theme-cayman
 
 gems:
   - jekyll-mentions
