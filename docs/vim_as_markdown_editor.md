@@ -1,5 +1,7 @@
 # Vim as Markdown Editor
 
+<!-- https://xizhong365.github.io/docs/vim_as_markdown_editor -->
+
 <!-- vim-markdown-toc GFM -->
 
 * [基本功能支持](#基本功能支持)
@@ -44,7 +46,7 @@ let s:filetype_dict = {
 
 ```
 
-使用 [vim-table-mode](https://github.com/dhruvasagar/vim-table-mode) 用来编辑表格。使用 '||' abbreviation 启用 Table Mode。非常好用。🎉
+使用 [vim-table-mode](https://github.com/dhruvasagar/vim-table-mode) 用来编辑表格。使用 '\|\|' abbreviation 启用 Table Mode。非常好用。🎉
 
 ```sh
 function! s:isAtStartOfLine(mapping)
