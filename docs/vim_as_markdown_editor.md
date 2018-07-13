@@ -87,7 +87,9 @@ let g:vmt_auto_update_on_save = 0
 
 Vim 可以有多种方式实现大纲功能。
 
-1. 通过 [vim-markdown](https://github.com/plasticboy/vim-markdown) folding 功能，折叠2级标题以下的内容，让Markdown 只显示文章的结构。
+### vim-markdown folding
+
+通过 [vim-markdown](https://github.com/plasticboy/vim-markdown) folding 功能，折叠2级标题以下的内容，让Markdown 只显示文章的结构。
 
 ![vim_as_markdown_editor_outline](images\vim_as_markdown_editor_outline01.png)
 
@@ -108,7 +110,7 @@ let g:vim_markdown_override_foldtext = 0
 let g:vim_markdown_folding_disabled = 1
 ```
 
-2. tagbar + markdown2ctags.py
+### tagbar + markdown2ctags.py
 
 下载 markdown2ctags.py
 
@@ -145,7 +147,9 @@ autocmd FileType markdown nmap <F8> :TagbarToggle<CR>
 
 **问题**：每次tag 更新都要调用 markdown2ctags.py。windows 下会经常跳出 cmd 窗口运行 tag 更新命令，有点干扰注意力。
 
-3. 使用 [vim-markdown](https://github.com/plasticboy/vim-markdown) TOC 功能。
+### vim-markdown TOC
+
+使用 [vim-markdown](https://github.com/plasticboy/vim-markdown) TOC 功能。
 
 ```sh
 let g:vim_markdown_toc_autofit = 1
