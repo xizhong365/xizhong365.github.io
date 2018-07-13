@@ -164,7 +164,7 @@ au VimEnter *.md,*.markdown Toc
 
 **问题**：大纲不能实时更新，需要用 :Toc 命令手动更新。😅
 
-相对来说，第3重方法对编辑文件没有干扰，实时显示大纲也不算刚需。推荐使用。
+相对来说，第3重方法对编辑文件没有干扰，实时更新大纲也不算刚需。推荐使用。
 
 ## 预览
 
@@ -201,6 +201,8 @@ Markdown 语法本身很简洁，容易掌握，规范检查功能对于熟悉 M
 ![Export to PDF](images\vim_as_markdown_editor_export_to_pdf.png)
 
 借助 vscode + Markdown PDF / MPE 是个不错的导出方法。
+
+上传到 github，比如当前页面，用 chrome 打开网址， Ctrl + P，记得取消“页眉页脚”选项，导出为 PDF。
 
 或是，使用 pandoc。
 
