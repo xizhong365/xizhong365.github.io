@@ -203,3 +203,5 @@ Markdown 语法本身很简洁，容易掌握，规范检查功能对于熟悉 M
 ## 总结
 
 除了对实时预览功能不太满意，Vim 用于 Markdown 文件编辑是完全胜任的。😀
+
+[Home](https://xizhong365.github.io/)
