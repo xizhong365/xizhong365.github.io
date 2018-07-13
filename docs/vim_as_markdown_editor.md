@@ -14,7 +14,7 @@
 
 <!-- vim-markdown-toc -->
 
-> Jul 13, 2018 Fri | vim | markdown
+> Jul 13, 2018 Fri , vim , markdown
 
 Markdown 编辑器很多，尝试过 maxiang，vscode + plugins 之类的，都不错。可没法使用Vim 的快捷键，不够顺手。vscode 虽然可以安装vim 模拟插件，可是每次打开文件要等待一两秒后，插件才能生效，用起来也是不顺畅。
 
