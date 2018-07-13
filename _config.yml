@@ -1,7 +1,7 @@
 title: Xizhong365.GitHub.io
 description: 
 google_analytics: 
-show_downloads: true
+show_downloads: no
 theme: jekyll-theme-cayman
 
 gems:
